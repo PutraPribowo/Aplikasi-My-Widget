@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Wiget</string>
+    <string name="update">Update</string>
+    <string name="berhenti">Berhenti</string>
+    <string name="text">Text</string>
+    <string name="putar">Putar</string>
+    <string name="random_100">Random: 100</string>
+</resources>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_height="100dp"
+        android:weightSum="9"
+        android:padding="16dp"
+        >
+
+        <ImageView
+             android:padding="16dp"
+            android:src="@drawable/random"
+            android:scaleType="fitCenter"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:background="@color/colorPrimary"
+            android:id="@+id/appwidget_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/text"
+            android:textColor="#ffffff"
+            android:layout_margin="6dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:text="@string/random_100"
+            android:textStyle="bold|italic"
+            android:layout_weight="3"/>
+
+        <Button
+            android:id="@+id/btn_click"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:text="@string/putar"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_weight="3"/>
+    </LinearLayout>
+</RelativeLayout>
+
